@@ -25,6 +25,9 @@
 		4D1DD79526DE6A8E00D5163A /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1DD79426DE6A8E00D5163A /* InformationView.swift */; };
 		4D1DD79726DE6B2000D5163A /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1DD79626DE6B2000D5163A /* TitleModifier.swift */; };
 		4D1DD79A26DE6C6C00D5163A /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1DD79926DE6C6C00D5163A /* ButtonModifier.swift */; };
+		4D1DD79C26DF541C00D5163A /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1DD79B26DF541C00D5163A /* SymbolModifier.swift */; };
+		4D1DD79F26DF58A600D5163A /* CardTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1DD79E26DF58A600D5163A /* CardTransition.swift */; };
+		4D1DD7A226DF5AF100D5163A /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1DD7A126DF5AF100D5163A /* PlaySound.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +51,9 @@
 		4D1DD79426DE6A8E00D5163A /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
 		4D1DD79626DE6B2000D5163A /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
 		4D1DD79926DE6C6C00D5163A /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
+		4D1DD79B26DF541C00D5163A /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
+		4D1DD79E26DF58A600D5163A /* CardTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTransition.swift; sourceTree = "<group>"; };
+		4D1DD7A126DF5AF100D5163A /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,8 @@
 		4D1DD76426DE39D800D5163A /* HoneyMoon */ = {
 			isa = PBXGroup;
 			children = (
+				4D1DD7A026DF5AE600D5163A /* Helper */,
+				4D1DD79D26DF588C00D5163A /* Extension */,
 				4D1DD76526DE39D800D5163A /* HoneyMoonApp.swift */,
 				4D1DD79826DE6B4D00D5163A /* Modifier */,
 				4D1DD78B26DE5EC100D5163A /* Component */,
@@ -155,8 +163,25 @@
 			children = (
 				4D1DD79926DE6C6C00D5163A /* ButtonModifier.swift */,
 				4D1DD79626DE6B2000D5163A /* TitleModifier.swift */,
+				4D1DD79B26DF541C00D5163A /* SymbolModifier.swift */,
 			);
 			path = Modifier;
+			sourceTree = "<group>";
+		};
+		4D1DD79D26DF588C00D5163A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4D1DD79E26DF58A600D5163A /* CardTransition.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4D1DD7A026DF5AE600D5163A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4D1DD7A126DF5AF100D5163A /* PlaySound.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +260,12 @@
 				4D1DD79526DE6A8E00D5163A /* InformationView.swift in Sources */,
 				4D1DD78A26DE5B5300D5163A /* FooterView.swift in Sources */,
 				4D1DD79726DE6B2000D5163A /* TitleModifier.swift in Sources */,
+				4D1DD79F26DF58A600D5163A /* CardTransition.swift in Sources */,
+				4D1DD79C26DF541C00D5163A /* SymbolModifier.swift in Sources */,
 				4D1DD78626DE3F0F00D5163A /* CardView.swift in Sources */,
 				4D1DD76826DE39D800D5163A /* ContentView.swift in Sources */,
 				4D1DD79A26DE6C6C00D5163A /* ButtonModifier.swift in Sources */,
+				4D1DD7A226DF5AF100D5163A /* PlaySound.swift in Sources */,
 				4D1DD78D26DE5EDC00D5163A /* HeaderComponent.swift in Sources */,
 				4D1DD78826DE599500D5163A /* HeaderVIew.swift in Sources */,
 				4D1DD76626DE39D800D5163A /* HoneyMoonApp.swift in Sources */,
